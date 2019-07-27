@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    retun view('tasks');
+    return view('tasks');
 });
 Route::post('/task',function(){
 
