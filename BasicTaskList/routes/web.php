@@ -12,5 +12,11 @@
 */
 
 Route::get('/', function () {
-    
+    retun view('tasks');
+});
+Route::post('/task',function(){
+
+});
+Route::delete('/task/{id}',function(){
+
 });
